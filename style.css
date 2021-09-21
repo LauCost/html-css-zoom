@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Main Footer */
+
+header{
+    background-color: #DADADA;
+}
+/* /Header Main Footer */
