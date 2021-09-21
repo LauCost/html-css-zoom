@@ -8,5 +8,36 @@
 
 header{
     background-color: #DADADA;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 /* /Header Main Footer */
+
+
+/* Contenuto Header */
+
+.cont_pallini{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.red, .yellow, .green{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
