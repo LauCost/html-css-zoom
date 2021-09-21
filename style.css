@@ -18,6 +18,15 @@ main{
     background-color: #000000;
 }
 
+footer{
+    background-color: #222326;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #DCDCDC;
+    justify-content: space-between;
+}
 /* /Header Main Footer */
 
 
@@ -120,3 +129,45 @@ main{
     padding: 5px;
 }
 /* /Contenuto Main */
+
+
+
+/* /Contenuto Footer */
+
+.comandi, .utility{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.comandi{
+    width: 13%;
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone > i{
+    font-size: 30px;
+    padding-bottom: 2px;
+}
+
+.utility{
+    width: 50%;
+}
+
+.uscita{
+    background-color: #4A4B4D;
+    color: #EA5450;
+    padding: 25px;
+}
+
+.uscita > p {
+    font-size: 20px;
+}
+/* Contenuto Footer */
