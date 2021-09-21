@@ -9,8 +9,9 @@
 header{
     background-color: #DADADA;
     display: flex;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-items: center;
 }
 /* /Header Main Footer */
 
@@ -21,6 +22,7 @@ header{
     display: flex;
     align-items: center;
     padding: 10px;
+    width: 43%;
 }
 
 .red, .yellow, .green{
@@ -40,4 +42,17 @@ header{
 
 .green{
     background-color: green;
+}
+
+.cont_zoomid{
+    display: flex;
+    align-items: center;
+}
+
+.censura{
+    width: 160px;
+    background-color: #A5A5A5;
+    border: 5px solid #FFFFFF;
+    height: 29px;
+    margin-left: 5px;
 }
