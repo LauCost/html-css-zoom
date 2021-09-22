@@ -156,6 +156,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
 
 .icone > i{
@@ -167,13 +169,19 @@ footer{
     width: 50%;
 }
 
+.verde{
+    color: #51C623;
+}
+
 .uscita{
     background-color: #4A4B4D;
-    color: #EA5450;
     padding: 25px;
 }
 
-.uscita > p {
+.uscita > a {
     font-size: 20px;
+    text-decoration: none;
+    color: #EA5450;
+    padding: 25px;
 }
 /* Contenuto Footer */
