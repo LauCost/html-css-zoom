@@ -5,7 +5,9 @@
 }
 
 /* Header Main Footer */
-
+body{
+    min-width: 1900px;
+}
 header{
     background-color: #DADADA;
     display: flex;
@@ -112,7 +114,7 @@ footer{
     width: 19.6%;
     margin: 2px 0;
     position: relative;
-    height: 170px;
+    height: 175px;
 }
 
 .persona > img {
@@ -127,6 +129,10 @@ footer{
     left: 0;
     background-color: #0000006e;
     padding: 5px;
+}
+
+.bordo{
+    border: 3px solid yellow;
 }
 /* /Contenuto Main */
 
