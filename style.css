@@ -5,9 +5,7 @@
 }
 
 /* Header Main Footer */
-body{
-    min-width: 1900px;
-}
+
 header{
     background-color: #DADADA;
     display: flex;
